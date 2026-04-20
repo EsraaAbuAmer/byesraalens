@@ -15,11 +15,6 @@ const notoSerif = Noto_Serif({
 export const metadata: Metadata = {
   title: "Esraa's Lens",
   description: "A premium photography portfolio",
-  icons: {
-    icon: [{ url: "/favicon.png", type: "image/png" }],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
-  },
 };
 
 export default function RootLayout({
