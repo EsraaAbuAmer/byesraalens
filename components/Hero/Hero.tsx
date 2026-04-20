@@ -84,7 +84,7 @@ export default function Hero() {
             ))}
           </div>
 
-          <HeroBottomStrip stripOpacity={stripOpacity} stripY={stripY} />
+          {/* <HeroBottomStrip stripOpacity={stripOpacity} stripY={stripY} /> */}
         </motion.div>
       </div>
     </section>

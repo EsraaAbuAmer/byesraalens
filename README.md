@@ -1,4 +1,4 @@
-# Esraa By Lens — Photography Portfolio
+# Esraa's Lens — Photography Portfolio
 
 A cinematic photography portfolio built with Next.js — featuring dynamic galleries, editorial layouts, and interactive before/after editing.
 

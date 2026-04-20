@@ -34,7 +34,7 @@ export function HeroContent({
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[10px] tracking-[0.22em] text-white/70 backdrop-blur-md md:mb-5 md:px-4 md:text-xs md:tracking-[0.25em]"
       >
-        ESRAA BY LENS
+        ESRAA'S LENS
       </motion.div>
 
       <motion.h1
