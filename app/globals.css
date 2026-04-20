@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9f9f9;
+  --foreground: #2d3435;
+  --font-body: var(--font-manrope);
+  --font-headline: var(--font-noto-serif);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-headline {
+  font-family: var(--font-headline), serif;
+}
+
+.font-body,
+.font-label {
+  font-family: var(--font-body), sans-serif;
+}
+
+.no-line-rule {
+  border: none !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
