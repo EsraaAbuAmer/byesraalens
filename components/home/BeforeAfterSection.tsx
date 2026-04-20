@@ -26,6 +26,9 @@ export default function BeforeAfterSection() {
           <p className="mb-3 text-xs uppercase tracking-[0.35em] text-stone-500">
             Before / After
           </p>
+          <h2 className="mt-3 font-headline text-4xl text-stone-900 md:text-5xl">
+            Retouched Work
+          </h2>
         </div>
       </div>
 
