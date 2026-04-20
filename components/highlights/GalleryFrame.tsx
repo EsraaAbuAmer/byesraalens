@@ -9,7 +9,7 @@ export default function GalleryFrame({ src, alt }: GalleryFrameProps) {
         alt={alt}
         fill
         sizes="(max-width: 768px) 82vw, 50vw"
-        className="object-cover transition-transform duration-700 md:group-hover:scale-105"
+        className="object-cover pointer-events-none transition-transform duration-700 md:group-hover:scale-105"
       />
     </div>
   );
