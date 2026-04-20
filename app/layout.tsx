@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope, Noto_Serif } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -14,8 +13,13 @@ const notoSerif = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "The Curated Lens",
+  title: "Esraa's Lens",
   description: "A premium photography portfolio",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
