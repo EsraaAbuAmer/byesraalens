@@ -9,7 +9,7 @@ export const highlights = [
   },
   {
     main: "/images/highlights/22.png",
-    secondary: ["/images/highlights/13.jpg", "/images/highlights/14.jpg"],
+    secondary: ["/images/highlights/13.jpg", "/images/highlights/14.JPG"],
   },
   {
     main: "/images/highlights/11.jpg",
