@@ -60,12 +60,12 @@ export function FloatingCard({
 
   const x = useTransform(
     [bottomX, parallaxX],
-    ([a, b]) => a + (reducedMotion || isMobile ? 0 : b)
+    ([a, b]:number[]) => a + (reducedMotion || isMobile ? 0 : b)
   );
 
   const y = useTransform(
     [spreadY, parallaxY],
-    ([a, b]) => a + (reducedMotion || isMobile ? 0 : b)
+    ([a, b]:number[]) => a + (reducedMotion || isMobile ? 0 : b)
   );
 
   return (
